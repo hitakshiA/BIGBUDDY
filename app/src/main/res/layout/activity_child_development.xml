@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/childdevelpoment"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/childDevelopmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI-Powered Child Development"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#8BC34A"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/childDevelopmentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Gain insights on your child’s skills and hobbies with AI-driven recommendations. Track development and receive personalized feedback as your child grows."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <!-- First Row of Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp">
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBackChildDevelopment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="10dp"
+            android:backgroundTint="#D385E1"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/btnContinueChildDevelopment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_margin="10dp"
+            android:backgroundTint="#D385E1"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <!-- Second Row of Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom">
+
+        <!-- Go to Live Sessions Button -->
+        <Button
+            android:id="@+id/btnLiveSessions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Live Sessions"
+            android:layout_margin="10dp"
+            android:backgroundTint="#D385E1"
+            android:textColor="#FFFFFF"/>
+
+        <!-- See Premium Button -->
+        <Button
+            android:id="@+id/btnSeePremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See Premium"
+            android:layout_margin="10dp"
+            android:backgroundTint="#D385E1"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>

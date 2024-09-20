@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/premiumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade to Premium"
+        android:textSize="24sp"
+        android:textColor="#CA61DB"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/premiumBenefits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlock all live sessions, priority booking, and more!"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnMonthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly: $9.99"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CA61DB"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnWeekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly: $3.99"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CA61DB"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnAnnually"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annually: $99.99"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CA61DB"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnBackToLiveSessions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_margin="10dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <!-- Thank You Message -->
+    <TextView
+        android:id="@+id/thankYouMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you! We hope for your bright future."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+</LinearLayout>

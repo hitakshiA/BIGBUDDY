@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <!-- Name Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#9C27B0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you a creator or user?"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbCreator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creator"
+            android:textColor="#9C27B0" /> <!-- Purple color -->
+
+        <RadioButton
+            android:id="@+id/rbUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+            android:textColor="#9C27B0" /> <!-- Purple color -->
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Password"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#9C27B0"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guidance at your footsteps"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" />
+</LinearLayout>
