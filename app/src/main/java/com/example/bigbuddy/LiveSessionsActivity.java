@@ -44,7 +44,7 @@ public class LiveSessionsActivity extends AppCompatActivity {
         btnBackToMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Go back to previous activity
+                
                 finish();
             }
         });
