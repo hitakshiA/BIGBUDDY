@@ -15,7 +15,7 @@ public class SessionSchedulerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_scheduler);
 
-        // Initialize buttons
+       
         btnSelectTimeSlot1 = findViewById(R.id.btnSelectTimeSlot1);
         btnSelectTimeSlot2 = findViewById(R.id.btnSelectTimeSlot2);
         btnConfirmSession = findViewById(R.id.btnConfirmSession);
