@@ -10,8 +10,8 @@ public class ChildDevelopmentActivity extends AppCompatActivity {
 
     private Button btnBackChildDevelopment;
     private Button btnContinueChildDevelopment;
-    private Button btnLiveSessions; // New button for Live Sessions
-    private Button btnSeePremium;   // New button for Premium Section
+    private Button btnLiveSessions; 
+    private Button btnSeePremium;  
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +21,14 @@ public class ChildDevelopmentActivity extends AppCompatActivity {
 
         btnBackChildDevelopment = findViewById(R.id.btnBackChildDevelopment);
         btnContinueChildDevelopment = findViewById(R.id.btnContinueChildDevelopment);
-        btnLiveSessions = findViewById(R.id.btnLiveSessions);   // Initialize Live Sessions button
-        btnSeePremium = findViewById(R.id.btnSeePremium);       // Initialize Premium button
+        btnLiveSessions = findViewById(R.id.btnLiveSessions);   
+        btnSeePremium = findViewById(R.id.btnSeePremium);     
 
 
         btnBackChildDevelopment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Go back to mode selection
+              
                 finish();
             }
         });
@@ -36,7 +36,7 @@ public class ChildDevelopmentActivity extends AppCompatActivity {
         btnContinueChildDevelopment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Proceed to the next page or activity
+               
                 Intent intent = new Intent(ChildDevelopmentActivity.this, NextChildDevelopmentActivity.class);
                 startActivity(intent);
             }
@@ -46,7 +46,7 @@ public class ChildDevelopmentActivity extends AppCompatActivity {
         btnLiveSessions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Go to Live Sessions activity
+                
                 Intent intent = new Intent(ChildDevelopmentActivity.this, LiveSessionsActivity.class);
                 startActivity(intent);
             }
@@ -56,7 +56,7 @@ public class ChildDevelopmentActivity extends AppCompatActivity {
         btnSeePremium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Go to Premium Section
+               
                 Intent intent = new Intent(ChildDevelopmentActivity.this, NextChildDevelopmentActivity.class);
                 startActivity(intent);
             }
