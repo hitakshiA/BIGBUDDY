@@ -52,7 +52,7 @@ public class ModeSelectionActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // Goes back to previous activity
+                finish(); 
             }
         });
 
